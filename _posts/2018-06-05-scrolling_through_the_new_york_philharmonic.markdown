@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "Scrolling through the New York Philharmonic"
-date:       2018-06-05 22:39:59 +0000
+date:       2018-06-05 18:39:59 -0400
 permalink:  scrolling_through_the_new_york_philharmonic
 ---
 
-For my CLI Data Gem Project, I created an application that scrapes all upcoming New York Philharmonic concerts from this page: https://nyphil.org/calendar?season=all&page=all
+For my CLI Data Gem Project, I created an application that scrapes all upcoming New York Philharmonic concerts from [this page.](https://nyphil.org/calendar?season=all&page=all)
 
 The first challenge I ran into was linking a concert's date with the concert itself using the list page pasted above. It's not the case for every date, but there are some days with *multiple* concerts. With the current HTML layout, if I grabbed all dates and all concerts, I would end up having more concerts than dates - how would I match those up so they were correct? Here is a visual example of the problem:
 
