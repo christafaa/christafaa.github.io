@@ -24,8 +24,6 @@ The NY Philharmonic currently has 163 listed concerts. Some of those concerts ar
 
 To mitigate this issue, I designed a scrolling system in my CLI. I created a Page class that stored 5 concerts in each page instance. When the program starts, I create the first page and display it. The user can then "turn the page" which would create a new instance of a page which would store 5 newly created concert instances. By creating only 5 concert instances at a time, and only when the user wants to see more concerts, I was able to get what I wanted (concert titles displaying with the correct concert dates) at the expense of a slight load time. At least when a page is created, it doesn't need to be reloaded. 
 
-Check out upcoming NY Phil concerts here:
-
-[Github Repo](https://github.com/christafaa/ny-philharmonic-cli-app)
+Check out upcoming NY Phil concerts here: [Github Repo](https://github.com/christafaa/ny-philharmonic-cli-app)
 
 
