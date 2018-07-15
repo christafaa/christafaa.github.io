@@ -8,12 +8,19 @@ permalink:  course_enrollment
 I decided to map out my object relationships as much as possible before I started to write any code for my Sinatra Project. Since I'm a beginner, this was really the first time I did all of my planning before writing any code. My goal was to create an app that allowed teachers to create courses that students could join or leave. It would have been *possible* to start setting up a database right away but I really wanted to think through all of my needs first. So, I wrote the following outline:
 
 Teachers:
+
 A teacher has many courses!
+
 ———
+
 A teacher has a name (string)
+
 A teacher has an alma mater (string)
+
 A teacher has years of experience (integer)
+
 A teacher can create/edit their courses
+
 A teacher can create/edit their teacher profile
 
 Courses:
