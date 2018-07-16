@@ -10,6 +10,7 @@ I decided to map out my object relationships as much as possible before I starte
 Teachers:
 
 A teacher has many courses
+
 A teacher has a name (string)
 
 A teacher has an alma mater (string)
@@ -62,5 +63,5 @@ A student can sign up for a course but cannot edit a course
 
 A student can create/edit their student profiles
 
-When I sat down to start setting up the database, everything was practically already written out in my outline. This made setup incredibly easy.
+When I sat down to start setting up the database, everything was practically already written out in my outline. This made database and model setup incredibly easy and I was able to jump into solving controller and view problems right away.
 
