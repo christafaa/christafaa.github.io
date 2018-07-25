@@ -25,5 +25,4 @@ Calling `has_secure_password` will create the following methods that we can use 
 
 When a user attempts to login, we can use `authenticate(unencrypted_password)` on our user object to confirm that the submitted password matches the password that was jumbled and saved to the user’s `password_digest` attribute.
 
-The `has_secure_password` macro is a small piece of code that does a lot of work to ensure that passwords can not be maliciously accessed and that we can still authenticate users when they attempt to login.
-The content of your blog post goes here.
+The `has_secure_password` macro is a small piece of code that does a lot of work to ensure that passwords can not be maliciously accessed and yet we can still authenticate users when they attempt to login.
