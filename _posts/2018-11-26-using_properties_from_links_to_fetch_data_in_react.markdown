@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using properties from links to fetch data in React"
-date:       2018-11-27 00:00:55 +0000
+date:       2018-11-26 19:00:56 -0500
 permalink:  using_properties_from_links_to_fetch_data_in_react
 ---
 
@@ -19,7 +19,7 @@ When a user clicks on an event to see the event's details, I need access to the 
 When a user clicks to view the list of attendees for a particular event, the `<Route>` is written like this:
           `<Route exact path="/concerts/:id/attendees" render={({match}) => <AttendeesContainer concertId={match.params.id}/>}/>`
 					
-Notice that we are using `match`'s `params` properity to access `id`!
+Notice that we are using `match`'s `params` property to access `id`!
 
 Once the `AttendeesContainer` mounts, we fetch the attendees of the correct event:
 					
