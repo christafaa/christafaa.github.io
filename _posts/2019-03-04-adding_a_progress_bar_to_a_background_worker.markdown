@@ -13,5 +13,5 @@ Right now the flow is:
 3. the worker creates new XLSX files which are sent to S3, and deletes the original files
 4. user is redirected to an index page with download links. 
 
-[Here is a demo of all of the above happening](https://www.youtube.com/watch?v=ujh35xi50QM) 
+[Here is a demo of all of the above happening](https://www.youtube.com/watch?v=ZfhEc7TRCes) 
 
