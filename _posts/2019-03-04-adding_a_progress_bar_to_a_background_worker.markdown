@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Adding a progress bar to a background worker"
-date:       2019-03-04 18:02:17 +0000
+date:       2019-03-04 13:02:21 -0500
 permalink:  adding_a_progress_bar_to_a_background_worker
 ---
 
@@ -13,5 +13,5 @@ Right now the flow is:
 3. the worker creates new XLSX files which are sent to S3, and deletes the original files
 4. user is redirected to an index page with download links. 
 
-Here is a demo of all of the above happening: https://www.youtube.com/watch?v=ujh35xi50QM
+[Here is a demo of all of the above happening](https://www.youtube.com/watch?v=ujh35xi50QM) 
 
