@@ -25,7 +25,7 @@ Since we are not explicitly using the `return` keyword here, our method is impli
 
 `.each` will evaluate to the array it is called on so `words.each {...}` will evaluate to `words` and since that is the last expression evaluated, our method implicitly returns `words`. 
 
-To return our `upcased_words` we simply need to make that variable the last expression evaluated so our method implicitly returns it:
+To return our `upcased_words` we need to make that variable the last expression evaluated so our method implicitly returns it:
 
 ```
 words = ["apple", "pear", "orange"]
@@ -35,7 +35,7 @@ def to_caps(words)
   words.each do |word|
     upcased_words << word.upcase
   end
-	upcased_words
+  upcased_words
 end
 ```
 
