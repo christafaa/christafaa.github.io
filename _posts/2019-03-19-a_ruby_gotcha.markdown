@@ -1,21 +1,21 @@
 ---
 layout: post
 title:      "A ruby gotcha"
-date:       2019-03-20 02:01:44 +0000
+date:       2019-03-19 22:01:45 -0400
 permalink:  a_ruby_gotcha
 ---
 
 
 I see this issue with the `.each` method come up a lot so I thought we could take a closer look.
 
-```words = ["apple", "pear", "orange"]
+`words = ["apple", "pear", "orange"]
 
 def to_caps(words) 
   upcased_words = []
   words.each do |word|
     upcased_words << word.upcase
   end
-end```
+end`
 
 What does this method return? If you said, `["apple", "pear", "orange"]`, you're right! But, why is this happening? 
 
@@ -25,7 +25,7 @@ Since we are not explicitly using the `return` keyword here, our method is impli
 
 To return our `upcased_words` we simply need to make that variable the last expression evaluated so our method implicitly returns it:
 
-```words = ["apple", "pear", "orange"]
+`words = ["apple", "pear", "orange"]
 
 def to_caps(words) 
   upcased_words = []
@@ -33,5 +33,5 @@ def to_caps(words)
     upcased_words << word.upcase
   end
 	upcased_words
-end```
+end`
 
